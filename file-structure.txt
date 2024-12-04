@@ -1,0 +1,15 @@
+website-carly-dacosta/
+├── _quarto.yml
+├── index.qmd
+├── styles.css
+├── img/
+│   ├── profile.jpg
+│   └── cat-logo.jpg
+├── files/
+│   └── CV.pdf
+├── research/
+│   └── index.qmd
+├── presentations/
+│   └── index.qmd
+└── cv/
+    └── index.qmd

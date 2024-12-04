@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Carly DaCosta"
+  favicon: img/cat-logo.jpg
+  navbar:
+    logo: img/cat-logo.jpg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research/index.qmd
+        text: Research
+      - href: presentations/index.qmd
+        text: Presentations
+      - href: cv/index.qmd
+        text: CV
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/carly-dacosta/
+      - icon: envelope
+        href: mailto:carly.dacosta@case.edu
+
+  page-footer:
+    center: 
+      - text: "© 2024 Carly DaCosta"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
